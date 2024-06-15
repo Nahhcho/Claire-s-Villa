@@ -11,10 +11,10 @@ const About = () => {
       </div>
       <div className='flex flex-col py-8 lg:py-16 pr-0 lg:pr-16'>
         <header className='text-[28px] md:text-[32px] lg:text-[35px] font-bold mb-4'>
-          Claire's Villa provides a nurturing environment for seniors
+          Claire&apos;s Villa provides a nurturing environment for seniors
         </header>
         <p className='mb-8'>
-          Experience the comfort of Claire's Villa, where every resident is part of our extended
+          Experience the comfort of Claire&apos;s Villa, where every resident is part of our extended
           family. Enjoy a worry-free retirement lifestyle with us.
         </p>
         <Link to='offers' smooth={true} duration={500}>
