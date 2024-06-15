@@ -19,10 +19,9 @@ const About = () => {
         </p>
         <Link to='offers' smooth={true} duration={500}>
           <button className='visit-button h-[35px] leading-[35px] w-[200px] mt-auto'>
-          
-          <p className='text-[18px]'>
-            Tour our services
-          </p>
+            <p className='text-[18px]'>
+              Tour our services
+            </p>
         </button>
         </Link>
       </div>
