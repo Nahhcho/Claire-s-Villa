@@ -1,0 +1,22 @@
+.piccer {
+    top: 1290px;
+    left: 156px;
+    width: 512px;
+    height: 512px;
+    border-radius: 12px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.visit-button {
+    cursor: pointer;
+    padding: 0px 8px;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 600;
+    line-height: 26px;
+}

@@ -1,0 +1,36 @@
+/* src/Slideshow.css */
+.slideshow {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slideshow-images img {
+    width: 100%;
+    display: none;
+}
+
+.slideshow-images img.active {
+    display: block;
+}
+
+.slideshow-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slideshow-button.previous {
+    left: 10px;
+}
+
+.slideshow-button.next {
+    right: 10px;
+}
+
